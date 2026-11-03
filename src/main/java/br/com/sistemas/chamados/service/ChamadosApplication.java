@@ -1,5 +1,0 @@
-package br.com.sistemas.chamados.service;
-
-public class ChamadosApplication {
-    
-}
