@@ -30,7 +30,7 @@ import br.com.sistemas.chamados.service.ChamadoService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/chamados")
+@RequestMapping("/api/chamados")
 public class ChamadoController {
 
     private final ChamadoService service;

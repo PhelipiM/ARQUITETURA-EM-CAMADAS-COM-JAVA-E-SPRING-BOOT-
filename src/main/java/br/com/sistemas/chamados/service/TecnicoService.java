@@ -30,7 +30,7 @@ public class TecnicoService {
         return TecnicoResponse.de(salvo);
     }
 
-    @Transactional(readOnly = true)
+    @Transactional(readOnly = true)  
     public List<TecnicoResponse> listar() {
         return repository.findAll().stream().map(TecnicoResponse::de).toList();
     }
